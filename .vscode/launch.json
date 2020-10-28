@@ -10,6 +10,9 @@
       "cwd": "${workspaceRoot}",
       "runtimeExecutable": "nodemon",
       "restart": true,
+      "env": {
+        "TS_NODE_IGNORE": "false"
+      },
       "console": "internalConsole",
       "outputCapture": "std"
     }

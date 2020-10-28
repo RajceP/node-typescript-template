@@ -2,7 +2,7 @@
   "name": "node-typescript-template",
   "version": "1.0.0",
   "description": "",
-  "main": "src/app.js",
+  "main": "src/app.ts",
   "scripts": {
     "start": "nodemon --exec ts-node src/app.ts"
   },
@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/node": "^14.14.5",
     "@typescript-eslint/eslint-plugin": "^4.6.0",
     "@typescript-eslint/parser": "^4.6.0",
     "eslint": "^7.12.1",
