@@ -20,7 +20,7 @@
     "eslint": "^7.15.0",
     "eslint-config-prettier": "^6.15.0",
     "eslint-config-typescript": "^3.0.0",
-    "eslint-plugin-prettier": "^3.2.0",
+    "eslint-plugin-prettier": "^3.3.0",
     "nodemon": "^2.0.6",
     "prettier": "^2.2.1",
     "ts-node": "^9.1.1",
