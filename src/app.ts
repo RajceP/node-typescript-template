@@ -9,8 +9,9 @@ config();
 const app = express();
 const { urlencoded, json } = express;
 
+const useCors = cors();
+app.options('*', useCors);
 app.use(cors({ credentials: true, origin: true }));
-app.options('*', cors());
 app.use(morgan('dev'));
 app.use(urlencoded({ extended: true }));
 app.use(json());
