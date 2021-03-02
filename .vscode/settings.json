@@ -5,9 +5,7 @@
     "source.fixAll.eslint"
   ],
   "editor.formatOnSave": true,
-  "peacock.color": "#215732",
-  "peacock.remoteColor": "#007acc",
-  "tsImportSorter.configuration.autoFormat": "onSave",
+  "peacock.color": "#007acc",
   "workbench.colorCustomizations": {
     "titleBar.activeBackground": "#007acc",
     "titleBar.activeForeground": "#e7e7e7",
